@@ -1,0 +1,25 @@
+@import url(./variables.css);
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: var(background-color);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+header {
+  height: 100px;
+  background-color: var(--header-color);
+  color: var(--text-color);
+}
+main {
+  height: 500px;
+  background-color: var(--main-color);
+}
+footer {
+  height: 200px;
+  background-color: var(--footer-color);
+}

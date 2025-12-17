@@ -1,0 +1,8 @@
+:root {
+  background-color: rgb(245, 245, 245);
+  --header-color: blue;
+  --main-color: red;
+  --footer-color: green;
+  --text-color: white;
+  --font-size: 30px;
+}
