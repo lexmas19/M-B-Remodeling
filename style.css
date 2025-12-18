@@ -11,6 +11,21 @@ body {
   margin: 0;
   font-family: var(--poppins);
 }
+.align-center {
+  display: flex;
+  align-items: center;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--basic-color);
+}
+
 header {
   height: 141px;
   background-color: var(--primary-color);
@@ -48,4 +63,89 @@ header {
       }
     }
   }
+}
+main {
+  padding: 0 80px 0 80px;
+  /* section.first */
+  section.first {
+    background-image: url(https://static.wixstatic.com/media/74f558_66357e0ecfea4c86b2ea0bce6e8a9447~mv2.jpg/v1/fill/w_1500,h_786,fp_0.50_0.50,q_85,enc_avif,quality_auto/74f558_66357e0ecfea4c86b2ea0bce6e8a9447~mv2.jpg);
+    height: 860px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .overlay {
+      height: 100%;
+      background-color: var(--overlay-color);
+      padding-left: 70px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h1 {
+        color: var(--primary-color);
+        font-size: 72px;
+        width: 690px;
+        margin-bottom: 80px;
+        font-weight: 600;
+      }
+      button {
+        width: 183px;
+        height: 40px;
+        background-color: var(--primary-color);
+        color: var(--basic-color);
+        border: none;
+        font-size: 14px;
+        font-weight: 200;
+        cursor: pointer;
+      }
+      button:hover {
+        color: var(--secondary-color);
+        transition-duration: 600ms;
+      }
+    }
+  }
+
+  /* section.second  */
+  section.second {
+    display: flex;
+    margin: 60px 0 80px 0;
+
+    div.background_image {
+      width: 50%;
+      height: 680px;
+      background-image: url("./images/84770f_59a5515ed0ea48efb3f1a7e3ce3098cc~mv2.avif");
+      background-size: cover;
+      background-position: 60%;
+      background-attachment: fixed;
+    }
+    div.short_info {
+      width: 50%;
+    }
+    div.wrapper {
+      width: 460px;
+
+      p {
+        font-size: var(--primary-font);
+        font-weight: 200;
+        color: var(--basic-color);
+        line-height: 25.5px;
+        margin: 30px 0 50px 0;
+      }
+      a {
+        background-color: var(--basic-color);
+        color: var(--primary-color);
+        padding: 10px 31px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 200;
+        cursor: pointer;
+      }
+      a:hover {
+        background-color: var(--secondary-color);
+        transition-duration: 600ms;
+      }
+    }
+  }
+  /* section third  */
 }
